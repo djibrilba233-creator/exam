@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservation</title>
+    <link rel="stylesheet" href="css/style.css">
+
+        
+</head>
+
+<body>
+     <div class="Arrière-plan">
+        <div class="navigateur">
+            <div class="logo">
+                <img src="TERANGA-FOOD.png" alt="">
+                <p>TERENGA FOOD</p>
+            </div>
+            <div class="porte">
+                <nav>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="contact.html">contact</a>
+                    <a href="menu.htm">menu</a>
+                    <a href="galerie.html">galerie</a>
+                </nav>
+            </div>
+        </div>
+        <div class="reser">
+            <form action="/envoyer" method="post">
+                <div class="pp">
+                    <label for="prenom">Prénom </label>
+                    <input type="text" id="prenom" name="prenom" placeholder="nom complet" required>
+                </div>
+                <div class="pp"><label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="pp"><label for="heure">heure</label>
+                    <input type="time" id="heure" name="heure" required>
+                </div>
+                <div class="pp"><label for="number">numero </label>
+                    <input type="phone" id="phone" name="phone" placeholder="votre numéro" required>
+                </div>
+                <div class="pp">
+                <label for="DATE">DATE:</label>
+                <input type="date" id="DATE" name="DATE">
+
+                <fieldset>
+                    <legend>nombre de reservation</legend>
+                    <input type="radio" id="r1" name="niveau" value="seul">
+                    <label for="r1">seul</label>
+                    <input type="radio" id="r2" name="niveau" value="couple">
+                    <label for="r2">couple </label>
+                    <input type="radio" id="r3" name="niveau" value="groupe">
+                    <label for="r3">groupe </label>
+                </fieldset>
+                 <div class="pp">
+                    <button type="submit">reserver</button>
+                </div>
+        </div>
+       
+    </div>
+    </form>
+     <div class="about">
+    <h1>Teranga Food</h1>
+    
+    <p><strong>Teranga Food</strong> met en avant les saveurs du Sénégal à travers des recettes traditionnelles et modernes. Notre objectif est d'offrir à chaque client une expérience culinaire conviviale et authentique.</p>
+
+    <h3>Notre Histoire</h3>
+    <p>Inspirés par la Teranga (l'hospitalité sénégalaise), nous avons créé un lieu où la tradition rencontre la passion.</p>
+
+    <h3>Nos Valeurs & Engagement</h3>
+    <ul>
+        <li><strong>Qualité & Hygiène :</strong> Des produits frais et une propreté rigoureuse.</li>
+        <li><strong>Accueil :</strong> Une équipe souriante et passionnée.</li>
+        <li><strong>Local :</strong> Ingrédients issus de producteurs locaux.</li>
+    </ul>
+
+    <h3>Ambiance</h3>
+    <p>Un cadre chaleureux et une atmosphère comme à la maison.</p>
+</div>
+        </div>
+</body>
+
+</html>

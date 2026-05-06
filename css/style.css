@@ -1,0 +1,337 @@
+.Arrière-plan {
+    background-color: #FFF7ED;
+    padding-bottom: 20px;
+}
+
+.navigateur {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #7C2D12;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.porte nav a {
+    text-decoration: none;
+    color: #D97706;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.int{
+    text-align: center;
+}
+.int h1{
+color: #D97706;
+font-family: Arial, Helvetica, sans-serif;
+}
+.int p{
+    color: #1C1917 ;
+    font-weight: 600;
+}
+
+
+.food {
+    max-width: 800px;
+    width: 95%;
+    min-height: 500px;
+    margin: 20px auto;
+    background-color: #7C2D12;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.food img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.food h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #D97706;
+    padding: 10px;
+}
+
+
+.food div {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.food button {
+    height: 40px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: #D97706;
+    border: none;
+    cursor: pointer;
+}
+
+.food button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.presentation,
+.details {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gal,
+.plat {
+    width: 30%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gal img,
+.plat img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gal h3,
+.plat h3,
+.plat p {
+    margin: 10px;
+}
+
+
+.reser {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #FFFFFF;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.pp {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pp input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+ .pp button{
+    height: 40px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: #D97706;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+
+    .presentation,
+    .details {
+        width: 90%;
+    }
+
+    .gal,
+    .plat,
+    .reseer {
+        width: 45%;
+    }
+
+    .food h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigateur {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .porte nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .food {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .food h1 {
+        font-size: 1.2rem;
+    }
+
+    .presentation,
+    .details {
+        width: 95%;
+    }
+
+    .gal,
+    .plat {
+        width: 100%;
+    }
+
+    .reser,
+    .about,
+    .contact {
+        width: 90%;
+    }
+}
+
+
+.contact {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #fffaf5;
+    border-radius: 8px;
+}
+
+
+
+.presentation {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.gal {
+    width: 30%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gal img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gal h3 {
+    color: #1C1917;
+    margin: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+
+    .presentation {
+        width: 90%;
+    }
+}
+
+.gal {
+    width: 48%;
+}
+
+@media (max-width: 600px) {
+
+    .presentation {
+        width: 95%;
+        gap: 10px;
+    }
+
+    .gal {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 820px) {
+
+    .presentation {
+        width: 95%;
+        gap: 10px;
+    }
+    .about{
+        width: 50%;
+    }
+
+    .gal {
+        width: 100%;
+        height: auto;
+    }
+    .food{
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .navigateur {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .porte nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .food{
+        width: 65%;
+    }
+}
+
+.about {
+    border-radius: 5px;
+    background-color: #7C2D12;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    padding: 20px;
+    color: #1C1917;
+}
+
+.about h1 {
+    color: #D97706;
+    text-align: center;
+}
+
+.about h3 {
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.about ul {
+    list-style-type: square;
+}
+
